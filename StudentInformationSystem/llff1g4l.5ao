@@ -1,0 +1,37 @@
+﻿Public Class selectLog
+
+    Private Sub LoginFrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub CMDSelLogExit_Click(sender As Object, e As EventArgs) Handles SelLogExitCMD.Click
+        End
+    End Sub
+
+    Private Sub CMDSelLogSchoolAdmin_Click(sender As Object, e As EventArgs) Handles SelLogSchoolAdminCMD.Click
+        With loginfrm
+            .ShowDialog()
+        End With
+        Me.Hide()
+
+        With Mainfrm
+            .ShowDialog()
+            .ManageAccountsToolStripMenuItem.Enabled = False
+            .Hide()
+        End With
+
+    End Sub
+
+    Private Sub SelLogSystemAdminCMD_Click(sender As Object, e As EventArgs) Handles SelLogSystemAdminCMD.Click
+
+        With Mainfrm
+            .ShowDialog()
+            .ManageAccountsToolStripMenuItem.Enabled = True
+            .Hide()
+        End With
+
+        loginfrmSysAdmin.ShowDialog()
+        Me.Hide()
+
+    End Sub
+End Class

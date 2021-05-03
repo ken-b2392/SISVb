@@ -1,0 +1,6 @@
+﻿Public Class Mainfrm
+
+    Private Sub Mainfrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Call mainfrmFortabstats()
+    End Sub
+End Class

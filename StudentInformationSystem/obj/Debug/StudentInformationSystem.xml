@@ -1,0 +1,404 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+StudentInformationSystem
+</name>
+</assembly>
+<members>
+<member name="P:StudentInformationSystem.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources._2x2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.about">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.about_SIS_Banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.account_logs_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.add_instructor_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.add_subject_details_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.assign_stud_sched_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.assign_subjects_to_instructor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.BACK_ARROW_ICO">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.back_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.BADA__Joshua_G">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.banner_stud_info">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.browse_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.BW_account_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.BW_account_icon1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.camera">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.camera___Copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.camera___Copy1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.camera1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.capture">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.CATULONG__Archie_E">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.check">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.CLEAR">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.CLEAR_ico">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.CLEAR_ico1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.CLEAR1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.close_red">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.correctpass">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.Dark_Ocean">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.default_pic">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.delete_ICO">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.delete_ICO1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.EBAL__Jhonepil_Jay_D">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.group_members_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.incorrect">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.INIEGO__Jr___Armando_M_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.instructor">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.manage_account">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_back_arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_cam">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_cancel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_close">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_delete">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_preview">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_preview_2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_print_ICO">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_save_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_search">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_update_db_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_update_db_logo1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.mini_update_db_logo2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.minicamera">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.minicamera1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.minicamera2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.minicamera3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.NAVARRO__Ernie_Cris_D_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.new_minicamera">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.next_icon">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.OCC_Logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.OCO__Giovann_A">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.print">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.print_accounts_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.print_ICO">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.print_student_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.print1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.refresh_or_update">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.register_new_acc_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.save_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.school_admin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.school_admin_copy">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.school_admin_new">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.school_admin_new1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.search_accounts_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.search_student_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.select_cam">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.select_type_of_user">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.SIS_Banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.SIS_Banner2">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.SIS_Banner3">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.SIS_Banner4">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.SIS_Banner5">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.sislogo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.Slight_Ocean_View">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.student">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.subjects">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.system_admin">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.system_admin1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.system_administrator">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.system_administrator1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.update_account_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.update_db_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.update_mini_back_arrow">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.update_student_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:StudentInformationSystem.My.Resources.Resources.update_system_admin_banner">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:StudentInformationSystem.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

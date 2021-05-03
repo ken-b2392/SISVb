@@ -1,0 +1,11 @@
+﻿Public Class Mainfrm
+
+    Private Sub Mainfrm_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        LoginFrm.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Mainfrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Call mainfrmFortabstats()
+    End Sub
+End Class

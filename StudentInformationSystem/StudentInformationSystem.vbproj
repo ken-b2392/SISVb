@@ -1,0 +1,559 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9326DA25-C09C-4452-BEAC-90B10B0CDD6E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>StudentInformationSystem.My.MyApplication</StartupObject>
+    <RootNamespace>StudentInformationSystem</RootNamespace>
+    <AssemblyName>StudentInformationSystem</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>StudentInformationSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>StudentInformationSystem.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>sislogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AForge">
+      <HintPath>..\packages\AForge.2.2.5\lib\AForge.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video">
+      <HintPath>..\packages\AForge.Video.2.2.5\lib\AForge.Video.dll</HintPath>
+    </Reference>
+    <Reference Include="AForge.Video.DirectShow">
+      <HintPath>..\packages\AForge.Video.DirectShow.2.2.5\lib\AForge.Video.DirectShow.dll</HintPath>
+    </Reference>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="MySql.Data, Version=6.3.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\MySQL Connector Net 6.3.6\Assemblies\v4.0\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="aboutSISfrm.Designer.vb">
+      <DependentUpon>aboutSISfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="aboutSISfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addStudfrm.Designer.vb">
+      <DependentUpon>addStudfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addStudfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="addsubjectfrm.Designer.vb">
+      <DependentUpon>addsubjectfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="addsubjectfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assigninstructortosubjfrm.Designer.vb">
+      <DependentUpon>assigninstructortosubjfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="assigninstructortosubjfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="assignschedfrm.Designer.vb">
+      <DependentUpon>assignschedfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="assignschedfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="backgroundfrm.Designer.vb">
+      <DependentUpon>backgroundfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="backgroundfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="capturepicforUpdatefrm.Designer.vb">
+      <DependentUpon>capturepicforUpdatefrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="capturepicforUpdatefrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="captureStudPicfrm.Designer.vb">
+      <DependentUpon>captureStudPicfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="captureStudPicfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport3.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="instructorinfofrm.Designer.vb">
+      <DependentUpon>instructorinfofrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="instructorinfofrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginfrm.Designer.vb">
+      <DependentUpon>loginfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="loginfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="loginfrmSysAdmin.Designer.vb">
+      <DependentUpon>loginfrmSysAdmin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="loginfrmSysAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="logsfrm.Designer.vb">
+      <DependentUpon>logsfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="logsfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="membersfrm.Designer.vb">
+      <DependentUpon>membersfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="membersfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="module1.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="printaccountsfrm.Designer.vb">
+      <DependentUpon>printaccountsfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printaccountsfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="printstudrecordfrm.Designer.vb">
+      <DependentUpon>printstudrecordfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="printstudrecordfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registernewAccfrm.Designer.vb">
+      <DependentUpon>registernewAccfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="registernewAccfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchAccfrm.Designer.vb">
+      <DependentUpon>searchAccfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searchAccfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="searchstudfrm.Designer.vb">
+      <DependentUpon>searchstudfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="searchstudfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectLog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="selectLog.Designer.vb">
+      <DependentUpon>selectLog.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainfrm.Designer.vb">
+      <DependentUpon>Mainfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Mainfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sysAdminAccfrm.Designer.vb">
+      <DependentUpon>sysAdminAccfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="sysAdminAccfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateschooladminaccfrm.Designer.vb">
+      <DependentUpon>updateschooladminaccfrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="updateschooladminaccfrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="updateStudInfofrm.Designer.vb">
+      <DependentUpon>updateStudInfofrm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="updateStudInfofrm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="aboutSISfrm.resx">
+      <DependentUpon>aboutSISfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addStudfrm.resx">
+      <DependentUpon>addStudfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="addsubjectfrm.resx">
+      <DependentUpon>addsubjectfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assigninstructortosubjfrm.resx">
+      <DependentUpon>assigninstructortosubjfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="assignschedfrm.resx">
+      <DependentUpon>assignschedfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="backgroundfrm.resx">
+      <DependentUpon>backgroundfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="capturepicforUpdatefrm.resx">
+      <DependentUpon>capturepicforUpdatefrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="captureStudPicfrm.resx">
+      <DependentUpon>captureStudPicfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport3.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="instructorinfofrm.resx">
+      <DependentUpon>instructorinfofrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginfrm.resx">
+      <DependentUpon>loginfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="loginfrmSysAdmin.resx">
+      <DependentUpon>loginfrmSysAdmin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="logsfrm.resx">
+      <DependentUpon>logsfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="membersfrm.resx">
+      <DependentUpon>membersfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printaccountsfrm.resx">
+      <DependentUpon>printaccountsfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="printstudrecordfrm.resx">
+      <DependentUpon>printstudrecordfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registernewAccfrm.resx">
+      <DependentUpon>registernewAccfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchAccfrm.resx">
+      <DependentUpon>searchAccfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="searchstudfrm.resx">
+      <DependentUpon>searchstudfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="selectLog.resx">
+      <DependentUpon>selectLog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainfrm.resx">
+      <DependentUpon>Mainfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sysAdminAccfrm.resx">
+      <DependentUpon>sysAdminAccfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateschooladminaccfrm.resx">
+      <DependentUpon>updateschooladminaccfrm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="updateStudInfofrm.resx">
+      <DependentUpon>updateStudInfofrm.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\OCC Logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\Slight Ocean View.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\Dark Ocean.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\banner stud info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\close_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\mini back arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\new minicamera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\capture.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\school admin new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\select type of user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\system admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\system administrator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\browse icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\next icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\back icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\SIS Banner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\SIS Banner2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\SIS Banner3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\SIS Banner4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\SIS Banner5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\BW account icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\delete ICO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\print ICO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\BACK ARROW ICO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\refresh or update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\CLEAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\CLEAR ico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\correctpass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\incorrect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\default pic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\select cam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\save logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\update mini back arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\update db logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\mini update db logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\mini cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\mini preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\mini preview 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\mini print ICO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\mini close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\mini save logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\mini delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\mini search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\pics\about SIS Banner.png" />
+    <None Include="bin\pics\OCO, Giovann A.jpg" />
+    <None Include="bin\pics\2x2.jpg" />
+    <None Include="bin\pics\EBAL, Jhonepil Jay D.jpg" />
+    <None Include="bin\pics\BADA, Joshua G.jpg" />
+    <None Include="bin\pics\NAVARRO, Ernie Cris D..jpg" />
+    <None Include="bin\pics\INIEGO, Jr., Armando M..jpg" />
+    <None Include="bin\pics\group members banner.png" />
+    <None Include="bin\pics\account logs banner.png" />
+    <None Include="bin\pics\update system admin banner.png" />
+    <None Include="bin\pics\print accounts banner.png" />
+    <None Include="bin\pics\search accounts banner.png" />
+    <None Include="bin\pics\register new acc banner.png" />
+    <None Include="bin\pics\print student banner.png" />
+    <None Include="bin\pics\add subject details banner.png" />
+    <None Include="bin\pics\assign subjects to instructor.png" />
+    <None Include="bin\pics\add instructor banner.png" />
+    <None Include="bin\pics\assign stud sched banner.png" />
+    <None Include="bin\pics\search student banner.png" />
+    <None Include="bin\pics\update student banner.png" />
+    <None Include="bin\pics\school admin copy.png" />
+    <None Include="bin\pics\school admin.jpg" />
+    <None Include="bin\pics\about.png" />
+    <None Include="bin\pics\manage account.png" />
+    <None Include="bin\pics\subjects.png" />
+    <None Include="bin\pics\instructor.png" />
+    <None Include="bin\pics\student.png" />
+    <None Include="bin\pics\sislogo.png" />
+    <None Include="bin\pics\update account banner.png" />
+    <Content Include="sislogo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

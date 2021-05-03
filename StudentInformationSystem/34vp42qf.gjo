@@ -1,0 +1,135 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class selectLog
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()> _
+    Protected Overrides Sub Dispose(ByVal disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.  
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()> _
+    Private Sub InitializeComponent()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.OCClogoPB = New System.Windows.Forms.PictureBox()
+        Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.CMDSelLogExit = New System.Windows.Forms.Button()
+        Me.CMDSelLogSystemAdmin = New System.Windows.Forms.Button()
+        Me.CMDSelLogSchoolAdmin = New System.Windows.Forms.Button()
+        Me.Panel1.SuspendLayout()
+        CType(Me.OCClogoPB, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel2.SuspendLayout()
+        Me.SuspendLayout()
+        '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.Transparent
+        Me.Panel1.Controls.Add(Me.OCClogoPB)
+        Me.Panel1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Panel1.Location = New System.Drawing.Point(0, 0)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(257, 150)
+        Me.Panel1.TabIndex = 2
+        '
+        'OCClogoPB
+        '
+        Me.OCClogoPB.BackColor = System.Drawing.Color.White
+        Me.OCClogoPB.Location = New System.Drawing.Point(53, 0)
+        Me.OCClogoPB.Name = "OCClogoPB"
+        Me.OCClogoPB.Size = New System.Drawing.Size(150, 150)
+        Me.OCClogoPB.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.OCClogoPB.TabIndex = 1
+        Me.OCClogoPB.TabStop = False
+        '
+        'Panel2
+        '
+        Me.Panel2.BackColor = System.Drawing.Color.MediumAquamarine
+        Me.Panel2.Controls.Add(Me.CMDSelLogExit)
+        Me.Panel2.Controls.Add(Me.CMDSelLogSystemAdmin)
+        Me.Panel2.Controls.Add(Me.CMDSelLogSchoolAdmin)
+        Me.Panel2.Location = New System.Drawing.Point(0, 156)
+        Me.Panel2.Name = "Panel2"
+        Me.Panel2.Size = New System.Drawing.Size(257, 142)
+        Me.Panel2.TabIndex = 3
+        '
+        'CMDSelLogExit
+        '
+        Me.CMDSelLogExit.BackColor = System.Drawing.Color.SpringGreen
+        Me.CMDSelLogExit.FlatAppearance.BorderSize = 0
+        Me.CMDSelLogExit.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SeaGreen
+        Me.CMDSelLogExit.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CMDSelLogExit.Location = New System.Drawing.Point(0, 94)
+        Me.CMDSelLogExit.Name = "CMDSelLogExit"
+        Me.CMDSelLogExit.Size = New System.Drawing.Size(257, 34)
+        Me.CMDSelLogExit.TabIndex = 6
+        Me.CMDSelLogExit.Text = "&Exit"
+        Me.CMDSelLogExit.UseVisualStyleBackColor = False
+        '
+        'CMDSelLogSystemAdmin
+        '
+        Me.CMDSelLogSystemAdmin.BackColor = System.Drawing.Color.SpringGreen
+        Me.CMDSelLogSystemAdmin.FlatAppearance.BorderSize = 0
+        Me.CMDSelLogSystemAdmin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SeaGreen
+        Me.CMDSelLogSystemAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CMDSelLogSystemAdmin.Location = New System.Drawing.Point(0, 52)
+        Me.CMDSelLogSystemAdmin.Name = "CMDSelLogSystemAdmin"
+        Me.CMDSelLogSystemAdmin.Size = New System.Drawing.Size(257, 34)
+        Me.CMDSelLogSystemAdmin.TabIndex = 5
+        Me.CMDSelLogSystemAdmin.Text = "System &Administrator"
+        Me.CMDSelLogSystemAdmin.UseVisualStyleBackColor = False
+        '
+        'CMDSelLogSchoolAdmin
+        '
+        Me.CMDSelLogSchoolAdmin.BackColor = System.Drawing.Color.SpringGreen
+        Me.CMDSelLogSchoolAdmin.FlatAppearance.BorderSize = 0
+        Me.CMDSelLogSchoolAdmin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SeaGreen
+        Me.CMDSelLogSchoolAdmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.CMDSelLogSchoolAdmin.Location = New System.Drawing.Point(0, 11)
+        Me.CMDSelLogSchoolAdmin.Name = "CMDSelLogSchoolAdmin"
+        Me.CMDSelLogSchoolAdmin.Size = New System.Drawing.Size(257, 34)
+        Me.CMDSelLogSchoolAdmin.TabIndex = 4
+        Me.CMDSelLogSchoolAdmin.Text = "&School Administrator"
+        Me.CMDSelLogSchoolAdmin.UseVisualStyleBackColor = False
+        '
+        'selectLog
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 18.0!)
+        Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.SpringGreen
+        Me.ClientSize = New System.Drawing.Size(257, 299)
+        Me.Controls.Add(Me.Panel2)
+        Me.Controls.Add(Me.Panel1)
+        Me.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(4)
+        Me.MaximizeBox = False
+        Me.MaximumSize = New System.Drawing.Size(397, 391)
+        Me.Name = "selectLog"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "School Admin Log-in Form"
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.OCClogoPB, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel2.ResumeLayout(False)
+        Me.ResumeLayout(False)
+
+    End Sub
+    Friend WithEvents OCClogoPB As System.Windows.Forms.PictureBox
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Panel2 As System.Windows.Forms.Panel
+    Friend WithEvents CMDSelLogSystemAdmin As System.Windows.Forms.Button
+    Friend WithEvents CMDSelLogSchoolAdmin As System.Windows.Forms.Button
+    Friend WithEvents CMDSelLogExit As System.Windows.Forms.Button
+
+End Class

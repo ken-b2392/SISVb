@@ -1,0 +1,11 @@
+﻿Public Class backgroundfrm
+
+    Private Sub backgroundfrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        selectLog.ShowDialog()
+    End Sub
+
+    Private Sub backgroundfrm_MouseHover(sender As Object, e As EventArgs) Handles Me.MouseHover
+
+
+    End Sub
+End Class

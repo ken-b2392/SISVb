@@ -1,0 +1,19 @@
+﻿Public Class LoginFrm
+
+    Private Sub LoginFrm_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+
+ 
+    Private Sub SystemAdloginCMD_Click(sender As Object, e As EventArgs)
+        Mainfrm.Show()
+        Me.Hide()
+    End Sub
+
+    Private Sub SchoolAdLoginCMD_Click(sender As Object, e As EventArgs)
+        Mainfrm.Show()
+        Me.Hide()
+    End Sub
+
+End Class
